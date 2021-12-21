@@ -8,7 +8,7 @@
     <style>
         <?php
 
-        include 'style.css';
+        include 'assets/css/style.css';
 
         ?>
     </style> <!-- importa o css -->
@@ -57,7 +57,7 @@
 
     </main>
 </body>
-<script src="main.js"></script>
+<script src="assets/js/main.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script type="text/javascript">
@@ -70,7 +70,7 @@
         }
         
         $.ajax({
-                url: 'http://localhost/formulario/config.php',
+                url: 'http://localhost/formulario/assets/postgre/config.php',
                 type: 'POST',
                 data: dados
             })
